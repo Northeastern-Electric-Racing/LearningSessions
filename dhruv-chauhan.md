@@ -1,0 +1,3 @@
+- Sophomore
+- Computer Science
+- znmd (lightns the mood - hindi movie)
