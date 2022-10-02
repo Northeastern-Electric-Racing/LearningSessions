@@ -1,10 +1,10 @@
 ## Setup
 
-Clone the Repository.
+1. clone the Repository.
+2. cd into this folder
+3. run:
 
-In the project directory, run:
-
-### `yarn`
+### `yarn install`
 
 Generates your node-modules folder.
 

@@ -1,6 +1,6 @@
-import React from "react";
-import "./App.css";
-import nerLogo from "./NER-Logo-App-Icon.svg";
+import React from 'react';
+import './App.css';
+import nerLogo from './NER-Logo-App-Icon.svg';
 
 function App() {
   return (
