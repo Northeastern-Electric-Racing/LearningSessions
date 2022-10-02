@@ -29,7 +29,7 @@ You will also see any lint errors in the console.
 5. To see an example of how to add a button that changes state checkout to main. When you run yarn start it should look like this, and the logo should switch to the react logo when the button is pushed: \
 ![image](https://user-images.githubusercontent.com/29521172/193474015-65930f7f-cad2-459f-b0af-47f3f4e4221d.png)
 6. Now it's your turn! Checkout into a new branch. Add a button at the bottom of the screen that tracks how many times it has been clicked, and
-Just for fun, add your name at the top of the screen using a header tag.
+just for fun add your name at the top of the screen using a header tag.
 
 
 
