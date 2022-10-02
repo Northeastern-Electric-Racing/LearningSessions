@@ -8,6 +8,10 @@
 
 Generates your node-modules folder.
 
+4. Checkout into the "starter-code" branch by calling:
+
+### `git switch "starter-code"`
+
 ### `yarn start`
 
 Runs the app in the development mode.\
