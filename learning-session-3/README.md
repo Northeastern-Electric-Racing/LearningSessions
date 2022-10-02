@@ -1,5 +1,7 @@
 ## Setup
 
+Clone the Repository.
+
 In the project directory, run:
 
 ### `yarn`
