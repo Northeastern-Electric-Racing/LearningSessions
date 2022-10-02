@@ -4,7 +4,7 @@ In the project directory, run:
 
 ### `yarn`
 
-Generates your node-modules folder.\
+Generates your node-modules folder.
 
 ### `yarn start`
 
