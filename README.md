@@ -1,8 +1,8 @@
-# Learning-Session-2-Git
+# Learning Sessions
 
-Repository for the exercise in the Software Team's second Learning Session.
+Repository for the exercises in the Software Team's Learning Sesssions
 
-# Instructions
+# Learning Session 2: Git Instructions
 
 1. Clone this repository
 2. Make a new branch called "first-last" but replace it with your name (in my case it would be "anthony-bernardi")
