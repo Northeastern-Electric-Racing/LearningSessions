@@ -1,8 +1,14 @@
-import React from 'react';
-import './App.css';
-import nerLogo from './NER-Logo-App-Icon.svg';
+import React, { useState } from "react";
+import "./App.css";
+import nerLogo from "./NER-Logo-App-Icon.svg";
 
 function App() {
+  const [counter, setCounter] = useState(0);
+
+  const increase = () => {
+    setCounter((counter) => counter + 1);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -16,6 +22,9 @@ function App() {
         >
           Check Out Finishline!
         </a>
+        <button onClick={increase} className={"App-logo-button"}>
+          {counter}
+        </button>
       </header>
     </div>
   );
