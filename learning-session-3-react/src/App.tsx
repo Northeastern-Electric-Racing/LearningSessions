@@ -9,7 +9,10 @@ function App() {
 
   const onSwitchClicked = () => {
     setOriginal(!original);
+    setCounter(counter+1);
   };
+
+  const[counter, setCounter] = useState(0);
 
   return (
     <div className="App">
@@ -26,7 +29,7 @@ function App() {
           Check Out Finishline!
         </a>
         <button onClick={onSwitchClicked} className="App-logo-button">
-        {"test"}
+        {counter}
         </button>
       </header>
     </div>
