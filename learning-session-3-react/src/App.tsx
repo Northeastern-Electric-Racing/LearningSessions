@@ -5,7 +5,13 @@ import logo from './logo.svg';
 
 function App() {
   const [original, setOriginal] = useState(false);
-  const onSwitchClicked = () => {setOriginal(! original)};
+  const [counter, setCounter] = useState(0);
+  const onSwitchClicked = () => {
+    setOriginal(! original)
+    setCounter(counter+1);
+  };
+
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +25,7 @@ function App() {
         >
           Check Out Finishline!
         </a>
-        <button onClick = {onSwitchClicked} className = {"App-logo-button"}>my button</button>
+        <button onClick = {onSwitchClicked} className = {"App-logo-button"}>{counter}</button>
       </header>
     </div>
   );
