@@ -5,6 +5,7 @@ import nerLogo from './NER-Logo-App-Icon.svg';
 function App() {
   return (
     <div className="App">
+      <h1> Micah Pacis</h1>
       <header className="App-header">
         <img src={nerLogo} className="App-logo" alt="logo" />
         <p>NER React Learning Session</p>
@@ -16,6 +17,7 @@ function App() {
         >
           Check Out Finishline!
         </a>
+        <button>click to keep track of count</button>
       </header>
     </div>
   );
