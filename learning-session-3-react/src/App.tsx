@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import nerLogo from './NER-Logo-App-Icon.svg';
+import chezyLogo from './254.svg';
 
 function App() {
   const [clicker, setClickerCounter] = useState(0);
@@ -11,12 +11,12 @@ function App() {
 
   return (
     <div className="App">
-      <header>
-        Jared Lyon's Branch
-      </header>
       <header className="App-header">
-        <img src={nerLogo} className="App-logo" alt="logo" />
+        <img src={chezyLogo} className="App-logo" alt="logo" />
         <p>NER React Learning Session</p>
+        <h1>
+        Jared Lyon's Branch
+        </h1>
         <a
           className="App-link"
           href="https://finishlinebyner.com"
@@ -26,9 +26,13 @@ function App() {
           Check Out Finishline!
         </a>
         <button onClick={onSwitchClicked} className={"Clicker-Counter"}>
-          Clicker Counter!
+          do not click me.
         </button>
-        <p> { clicker } </p>
+        {clicker > 0 ? (
+          <p> you fool, you've clicked me!! - counter: {clicker} </p>
+        ) : (
+          <p> Don't do it. </p>
+        )}
       </header>
     </div>
   );
