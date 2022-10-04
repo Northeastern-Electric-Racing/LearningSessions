@@ -9,6 +9,17 @@ function App() {
     setClickerCounter(clicker + 1);
   }
 
+  var btmMsg = "";
+  if (clicker == 0) {
+    btmMsg = "don't do it.";
+  } else if (clicker == 1) {
+    btmMsg = "you fool. (counter: " + clicker + ")";
+  } else if (clicker == 2) {
+    btmMsg = "you absolute goon. (counter: " + clicker + ")";
+  } else if (clicker > 2) {
+    btmMsg = "you are out of control. (counter: " + clicker + ")";
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -28,11 +39,7 @@ function App() {
         <button onClick={onSwitchClicked} className={"Clicker-Counter"}>
           do not click me.
         </button>
-        {clicker > 0 ? (
-          <p> you fool, you've clicked me!! - counter: {clicker} </p>
-        ) : (
-          <p> Don't do it. </p>
-        )}
+        <p> { btmMsg } </p>
       </header>
     </div>
   );
