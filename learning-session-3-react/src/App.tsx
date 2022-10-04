@@ -17,8 +17,8 @@ function App() {
 
   return (
     <div className="App">
-      <header className ="App-header"> Aryan Kale </header>
       <header className="App-header">
+        <h1>Aryan Kale</h1>
         {original ? (
           <img src={logo} className="App-logo" alt="logo" />
         ) : (
