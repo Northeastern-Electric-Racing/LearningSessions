@@ -10,6 +10,12 @@ function App() {
     setOriginal(!original);
   };
 
+  
+  const [count, setCount] =  useState(0);
+  const numClicks = () => {
+    setCount(count + 1);
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +24,9 @@ function App() {
         ) : (
           <img src={nerLogo} className="App-logo" alt="logo" />
         )}
+        <header>
+          Ethan Kong
+        </header>
         <p>NER React Learning Session</p>
         <a
           className="App-link"
@@ -27,8 +36,14 @@ function App() {
         >
           Check Out Finishline!
         </a>
+        {
+          count
+        }
         <button onClick={onSwitchClicked} className={"App-logo-button"}>
           Switch Logo
+        </button>
+        <button onClick={numClicks} className={"App-logo-button"}>
+          Count Clicks
         </button>
       </header>
     </div>
