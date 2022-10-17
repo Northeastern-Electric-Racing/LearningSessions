@@ -9,6 +9,10 @@ function App() {
     setCounter((counter) => counter + 1);
   };
 
+  const multFunc = () => {
+    increase();
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -22,7 +26,7 @@ function App() {
         >
           Check Out Finishline!
         </a>
-        <button onClick={increase} className={"App-logo-button"}>
+        <button onClick={multFunc} className={"App-logo-button"}>
           {counter}
         </button>
       </header>
