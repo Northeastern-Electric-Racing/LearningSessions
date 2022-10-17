@@ -18,14 +18,10 @@ app.get('/date', (req, res) => {
 });
 
 // everything declared in this router will be under the '/colors' path
-app.use('/colors', colorsRouter, (req, res) => {
-
-});
+app.use('/colors', colorsRouter);
 
 // food thingie
-app.use('/food', foodRouter, (req, res) => {
-
-});
+app.use('/food', foodRouter);
 
 // start the Express server
 app.listen(port, () => {
