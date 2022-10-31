@@ -8,18 +8,18 @@ generator client {
 }
 
 model User {
-  userId    String @id @default(uuid())
+  userId    Int    @id @default(autoincrement())
   firstName String
   lastName  String
   email     String @unique
-  teamId    String
-  team      Team   @relation(fields: [teamId], references: [teamId])
+  teamId    Int?
+  team      Team?  @relation(fields: [teamId], references: [teamId])
 }
 
 model Team {
-  teamId      String @id @default(uuid())
+  teamId      Int    @id @default(autoincrement())
   teamName    String
-  slackId     String
+  budget      Int
   description String @default("")
   members     User[]
 }
