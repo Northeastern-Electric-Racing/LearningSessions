@@ -20,6 +20,21 @@ const createUser = async (firstName: string, lastName: string, email: string, te
   // fill this out
 };
 
+const createPlant = async () => {
+  // EXERCISE 2:
+  // fill this out -- you'll have to add the arguments yourself this time!
+};
+
+const updatePlant = async () => {
+  // EXERCISE 2:
+  // fill this out -- you'll have to add the arguments yourself this time!
+};
+
+const findUser = async (userId: number) => {
+  // EXERCISE 3:
+  // fill this out -- make sure it returns a user's plants and team!
+};
+
 const main = async () => {
   // PRE EXERCISE:
   // uncomment the line below and fill in the arguments
