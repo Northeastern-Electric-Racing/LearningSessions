@@ -19,7 +19,7 @@
 ## Exercise 1
 
 - fill out the `createUser` function
-- create a new user with no team. Check that it works in Prisma Studio
+- Add a call to createUser in the main() function that creates a new user with no team. Run `yarn start`. Check that it worked in Prisma Studio
 - create another user with the exact same email. What happens? Why?
 - create a user that's on the team you made in the pre exercise. Check that it works in Prisma Studio
 
@@ -33,6 +33,7 @@
   - an owner (hint: you'll also have to update the User model to be able to have many plants)
 - Once you've added this model, run `yarn prisma:migrate` to update the sql and database. Give the migration a good name when prompted! You'll then need to run `yarn prisma:generate` which builds the code that lets you write queries to the plant table.
 - Fill out the `createPlant` and `updatePlant` functions in `index.ts`. You should be able to update any of a plant's fields (except for id).
+- Do some manual testing to make sure this works
 
 ## Exercise 3
 
