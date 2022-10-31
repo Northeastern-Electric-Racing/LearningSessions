@@ -1,0 +1,25 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  userId    String @id @default(uuid())
+  firstName String
+  lastName  String
+  email     String @unique
+  teamId    String
+  team      Team   @relation(fields: [teamId], references: [teamId])
+}
+
+model Team {
+  teamId      String @id @default(uuid())
+  teamName    String
+  slackId     String
+  description String @default("")
+  members     User[]
+}
