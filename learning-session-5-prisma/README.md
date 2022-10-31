@@ -31,7 +31,7 @@
   - a species
   - a value
   - an owner (hint: you'll also have to update the User model to be able to have many plants)
-- Once you've added this model, run `yarn prisma:migrate` to update the sql and database. Give the migration a good name when prompted!
+- Once you've added this model, run `yarn prisma:migrate` to update the sql and database. Give the migration a good name when prompted! You'll then need to run `yarn prisma:generate` which builds the code that lets you write queries to the plant table.
 - Fill out the `createPlant` and `updatePlant` functions in `index.ts`. You should be able to update any of a plant's fields (except for id).
 
 ## Exercise 3
