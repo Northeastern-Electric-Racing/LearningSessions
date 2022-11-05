@@ -10,9 +10,22 @@ function App() {
     setOriginal(!original);
   };
 
+  const [count, setCount] = useState(999999999999);
+
+  const onButtonClick = () => {
+    setCount(count + 1);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
+        <div>
+          <header>
+            <h1>
+              Ryan Cheung
+            </h1>
+          </header>
+        </div>
         {original ? (
           <img src={logo} className="App-logo" alt="logo" />
         ) : (
@@ -29,6 +42,14 @@ function App() {
         </a>
         <button onClick={onSwitchClicked} className={"App-logo-button"}>
           Switch Logo
+        </button>
+        <p>
+        {
+          count
+        }
+        </p>
+        <button onClick={onButtonClick} className={"App-counter"}>
+          Click counter
         </button>
       </header>
     </div>
