@@ -8,7 +8,7 @@
 
 Generates your node-modules folder.
 
-5. Git pull to make sure everything is up to date. Run:
+4. Git pull to make sure everything is up to date. Run:
 
 ### `yarn start`
 
