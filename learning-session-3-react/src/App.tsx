@@ -5,9 +5,14 @@ import logo from "./logo.svg";
 
 function App() {
   const [original, setOriginal] = useState(false);
+  const [count, setCount] = useState(0);
 
   const onSwitchClicked = () => {
     setOriginal(!original);
+  };
+
+  const onIncrementClicked = () => {
+    setCount(count + 1);
   };
 
   return (
@@ -30,6 +35,8 @@ function App() {
         <button onClick={onSwitchClicked} className={"App-logo-button"}>
           Switch Logo
         </button>
+        <button onClick={onIncrementClicked}> Increment </button>
+        <p>{count.toString()}</p>
       </header>
     </div>
   );
