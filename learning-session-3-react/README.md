@@ -8,10 +8,6 @@
 
 Generates your node-modules folder.
 
-4. Checkout into the "starter-code" branch by calling:
-
-### `git switch "starter-code"`
-
 5. Git pull to make sure everything is up to date. Run:
 
 ### `yarn start`
