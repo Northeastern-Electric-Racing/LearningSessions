@@ -26,7 +26,8 @@
 
 /**
  * #5: write an arrow function `hasFavorite` that takes in a list of strings `ls` and returns a boolean
- *     this function should return true if the list includes the string of your favorite fruit and false otherwise
+ *     this function should return true if the list includes the string of your favorite fruit
+ *     (hard-code the comparison to your favorite fruit) and false otherwise
  *     test it out! (Hint: google javascript list includes)
  */
 
