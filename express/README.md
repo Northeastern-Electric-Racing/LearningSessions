@@ -2,8 +2,9 @@
 
 ## Setup
 
-1. clone the Repository.
+1. clone the Repository. (If you don't already have it cloned)
 2. cd into this folder
+2.5 Make sure you're on branch 'main'
 3. run:
 
 #### `yarn install`
