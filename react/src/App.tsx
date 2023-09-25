@@ -5,13 +5,19 @@ import logo from "./logo.svg";
 
 function App() {
   const [original, setOriginal] = useState(false);
-
+  const [numOfClicks,clickCounter] = useState(0);
+ 
   const onSwitchClicked = () => {
     setOriginal(!original);
   };
 
+  const addOne = () => {
+    clickCounter(numOfClicks + 1)
+  };
+
   return (
     <div className="App">
+      <h1>Kevin Polackal!</h1>
       <header className="App-header">
         {original ? (
           <img src={logo} className="App-logo" alt="logo" />
@@ -29,6 +35,9 @@ function App() {
         </a>
         <button onClick={onSwitchClicked} className={"App-logo-button"}>
           Switch Logo
+        </button>
+        <button onClick={addOne} className={"App-counter-button"}>
+          I've been clicked {numOfClicks} times
         </button>
       </header>
     </div>
