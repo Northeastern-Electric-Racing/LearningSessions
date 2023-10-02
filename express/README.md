@@ -21,7 +21,7 @@ Open [http://localhost:8080](http://localhost:8080) to view it in the browser. I
 
 1. investigate the code and mess around with the already existing endpoints
 2. fill in the `getColors` function in `colors.controller.ts`
-3. add the `getColors` function to the route `/colors` by adding it to the colors router
+3. add the `getColors` function to the route by adding it to the colors router on the `/` endpoint
 4. go to `localhost:8080/colors` to check your work
 
 ## Exercise 2
