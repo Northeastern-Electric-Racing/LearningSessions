@@ -42,3 +42,8 @@
   background-color: #1adede;
   font-size: 20px;
 }
+
+.App-counter-button {
+  background-color: bisque;
+  font-size: 30;
+}
