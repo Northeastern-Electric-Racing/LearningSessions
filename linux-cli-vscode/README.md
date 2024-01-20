@@ -68,7 +68,7 @@ The resulting line is your first flag, you can copy and paste the line into your
 
 #### Flag 2 
 
-navigate to the apt directory, which is under the lib directory in the root directory using the skills you have learned. There you should find a txt file with your next flag, add this flag back to your flags.txt file. 
+navigate to the witch_hunt directory, which is under the fun directory in the root directory using the skills you have learned. There you should find a txt file with your next flag, add this flag back to your flags.txt file. 
 
 #### Flag 3
 
