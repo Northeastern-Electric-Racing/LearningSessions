@@ -14,6 +14,8 @@ This command pulls the docker container from docker hub, specifically Peyton's D
 
 ### Running the docker Container
 
+If you're on Windows make sure to do this in PowerShell
+
 run ```docker run -it mckeep/linuxcli```
 
 This runs the docker image, -i is for interactive mode which is what allows you to enter into the image
