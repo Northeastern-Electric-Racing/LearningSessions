@@ -100,7 +100,7 @@ What is the name of the operating system you are running on in the container? Wh
 
 #### Flag 8
 
-Looks like somehow has put a haystack directory in our root directory. You'll need to use grep to find the occurence of any needles in this haystack of files (The key is the number that follows the occurrence of the word needle in the haystack)
+Looks like someone has put a `haystack directory` in our root directory. You'll need to use `grep` to find the occurence of any `needle`s in this haystack of files (The key is the number that follows the occurrence of the word needle in the haystack). Like previous examples the --help command may be useful for looking through directories. 
 
 #### Flag 9
 
