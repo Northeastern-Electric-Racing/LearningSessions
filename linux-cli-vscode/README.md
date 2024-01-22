@@ -23,10 +23,11 @@ This runs the docker image, -i is for interactive mode which is what allows you 
 You should notice that your terminal looks different, it should look like this ```root@39a7702d90de:/#```
 
 Lets break this down, 
-- root -> the user in the image
-- @ -> specifies the connection between the user and the tag of the image
-- 39a7702d90de -> the tag the image is on
-- :/# -> the directory you are currently in "#" is the root directory
+- root -> the user currently in use
+- 39a7702d90de -> the name of the machine
+- :/# -> the directory you are currently in "/" (root directory)
+
+Think of it like "I'm the root user in this machine located here"
 
 ### Working in the container
 run ```ls```
@@ -81,3 +82,17 @@ Enter this path into your flags.txt file
 #### Flag 4
 
 Now I've been tricking you all right underneath your nose. Theres a secret secret flag in the root directory of the kernel thats JUST BEEN SITTING THERE AND YOU HAD NO IDEA HAHAHAHAHAHHAHAHAHHAHAHAHAHAAH. Try to find it: hint id look at the ```ls --help``` option guide. 
+
+#### Flag 5
+
+Who are you? Run `whoami` to find out the flag
+
+#### Flag 6
+
+What processes are running? There's a secret MALWARE that is currently ATTACKING you system. Retrive the name of the process as the flag (this can be done with `ps` or `top`)
+
+#### Flag 7
+
+What is the name of the operating system you are running on in the container? What flavor of Linux is it? This can be found in `/etc/os-release`
+
+
