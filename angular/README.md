@@ -40,3 +40,6 @@ Resolve all comments in...
 - [ ] ticket-view.component.html
 
 GOOD LUCK!
+
+Slides: 
+https://docs.google.com/presentation/d/1kvxSzox3FVycu4qrb2T1XTeLqs_Npm7Q6uCaP5BH56c/edit#slide=id.g2b2a2a5034a_0_106
