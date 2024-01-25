@@ -1,0 +1,3 @@
+- first year
+- computer science
+- mulan because the songs are too good
