@@ -13,6 +13,8 @@ You're job is to create a stoplight in C. This needs to:
 
 For streamlining development (and because compiling C/C++ on Windows is kinda annoying) we are going to be using a Docker container to actually handle the compilation. Literally all this container is doing is providing a build environment with all the tooling we need.
 
+>! Execute these in the `c` directory of the Learning Session repo
+
 To build your project:
 ```
 docker build -t ner-gcc .
