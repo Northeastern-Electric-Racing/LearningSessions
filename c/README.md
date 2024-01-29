@@ -7,7 +7,7 @@ Welcome to our Introduction to C workshop!! In this workshop, you're going to cr
 You're job is to create a stoplight in C. This needs to:
 1. Print `Green`, `Yellow`, `Red` in a loop, 1 second for yellow, 3 seconds for red, and 5 seconds for green (hint: maybe use a state machine and the `sleep()` function?)
 2. Your code should be easily readable, i.e. no "magic numbers" (hint: think about using enums)
-3. Bonus! If the user enters a value, the light will enter a "walk cycle" where it is red for 3 seconds the next time it turns red
+3. Bonus! If the user enters a value, the light will enter a "walk cycle" where it is red for 6 seconds the next time it turns red (hint: look into `fork()` and pipes)
 
 # Building & Running your Project
 
