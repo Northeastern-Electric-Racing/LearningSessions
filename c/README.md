@@ -25,7 +25,7 @@ To run your project:
 docker run -it --rm ner-gcc
 ```
 
-> Note that what is actually happening here is that your are compiling you C file into assembly, then into symbols, and then linking together to create an executable binary that can be run on your system. This docker method is just abstracting a lot of the system setup so y'all don't have to install stuff locally
+> Note that what is actually happening here is that you are compiling your C file into assembly, then into symbols, and then linking together to create an executable binary that can be run on your system. This docker method is just abstracting a lot of the system setup so y'all don't have to install stuff locally
 
 
 # Tips & Tricks
