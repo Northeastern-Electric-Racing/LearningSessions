@@ -5,7 +5,7 @@ Welcome to our Introduction to C workshop!! In this workshop, you're going to cr
 # Task
 
 You're job is to create a stoplight in C. This needs to:
-1. Print `Green`, `Yellow`, `Red` in a loop, 1 second in between each (hint: maybe use a state machine and the `sleep()` function?)
+1. Print `Green`, `Yellow`, `Red` in a loop, 1 second for yellow, 3 seconds for red, and 5 seconds for green (hint: maybe use a state machine and the `sleep()` function?)
 2. Your code should be easily readable, i.e. no "magic numbers" (hint: think about using enums)
 3. Bonus! If the user enters a value, the light will enter a "walk cycle" where it is red for 3 seconds the next time it turns red
 
@@ -23,7 +23,7 @@ To run your project:
 docker run -it --rm ner-gcc
 ```
 
-> Note that what is actually happening here is that you are compiling you C file into assembly, then into symbols, and then linking together to create an executable binary that can be run on your system. This docker method is just abstracting a lot of the system setup so y'all don't have to install stuff locally
+> Note that what is actually happening here is that your are compiling you C file into assembly, then into symbols, and then linking together to create an executable binary that can be run on your system. This docker method is just abstracting a lot of the system setup so y'all don't have to install stuff locally
 
 
 # Tips & Tricks
