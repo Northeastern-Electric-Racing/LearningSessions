@@ -1,38 +1,11 @@
-import React, { useState } from "react";
-import "./App.css";
-import nerLogo from "./NER-Logo-App-Icon.svg";
-import logo from "./logo.svg";
+import './App.css';
 
-function App() {
-  const [original, setOriginal] = useState(false);
-
-  const onSwitchClicked = () => {
-    setOriginal(!original);
-  };
-
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        {original ? (
-          <img src={logo} className="App-logo" alt="logo" />
-        ) : (
-          <img src={nerLogo} className="App-logo" alt="logo" />
-        )}
-        <p>NER React Learning Session</p>
-        <a
-          className="App-link"
-          href="https://finishlinebyner.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Out Finishline!
-        </a>
-        <button onClick={onSwitchClicked} className={"App-logo-button"}>
-          Switch Logo
-        </button>
-      </header>
+    <div>
+      <h1 className="text-2xl">Welcome to the React Learning Session!</h1>
     </div>
   );
-}
+};
 
 export default App;
