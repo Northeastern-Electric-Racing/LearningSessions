@@ -39,17 +39,17 @@ You should see the following:
 
 Next we are going to add a components directory and an images directory to our project.
 
-[plant1.jpg](Fall%20%E2%80%9823%20React%20Tutorial%200301a3e466c24482b49959bd3a05a8e6/plant1.jpg)
+[plant1.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/846dc38f-a44a-4107-adff-c8cda0f1de95)
 
-[plant2.jpg](Fall%20%E2%80%9823%20React%20Tutorial%200301a3e466c24482b49959bd3a05a8e6/plant2.jpg)
+[plant2.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/e456417b-0dd2-491c-9df2-08d0a2c232b8)
 
-[plant3.jpg](Fall%20%E2%80%9823%20React%20Tutorial%200301a3e466c24482b49959bd3a05a8e6/plant3.jpg)
+[plant3.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/87c84230-a800-4df3-83d9-3e6b662828ea)
 
-[pot1.jpg](Fall%20%E2%80%9823%20React%20Tutorial%200301a3e466c24482b49959bd3a05a8e6/pot1.jpg)
+[pot1.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/aa6d2e4f-da7a-4590-b73c-8742d8944ac5)
 
-[pot2.jpg](Fall%20%E2%80%9823%20React%20Tutorial%200301a3e466c24482b49959bd3a05a8e6/pot2.jpg)
+[pot2.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/04041b9e-826c-4730-91a2-4ba393c9780b)
 
-[pot3.jpg](Fall%20%E2%80%9823%20React%20Tutorial%200301a3e466c24482b49959bd3a05a8e6/pot3.jpg)
+[pot3.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/52b2b8e7-178e-4772-9c0f-2f5e557cb5ca)
 
 Add:
 
