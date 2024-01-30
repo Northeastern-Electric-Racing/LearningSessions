@@ -39,7 +39,7 @@ You should see the following:
 
 Next we are going to add a components directory and an images directory to our project.
 
-[plant1.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/846dc38f-a44a-4107-adff-c8cda0f1de95)
+[plant1.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/blob/main/images/plant1.jpg)
 
 [plant2.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/e456417b-0dd2-491c-9df2-08d0a2c232b8)
 
