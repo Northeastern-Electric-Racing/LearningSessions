@@ -30,6 +30,8 @@ yarn start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img width="960" alt="image" src="https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/d8025bf2-6546-43b8-9f1c-a2ecd0018248">
+
 
 ## Adding Directories and Files
 
