@@ -41,15 +41,15 @@ Next we are going to add a components directory and an images directory to our p
 
 [plant1.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/blob/main/images/plant1.jpg)
 
-[plant2.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/e456417b-0dd2-491c-9df2-08d0a2c232b8)
+[plant2.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/blob/main/images/plant2.jpg)
 
-[plant3.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/87c84230-a800-4df3-83d9-3e6b662828ea)
+[plant3.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/blob/main/images/plant3.jpg)
 
-[pot1.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/aa6d2e4f-da7a-4590-b73c-8742d8944ac5)
+[pot1.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/blob/main/images/pot1.jpg)
 
-[pot2.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/04041b9e-826c-4730-91a2-4ba393c9780b)
+[pot2.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/blob/main/images/pot2.jpg)
 
-[pot3.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/assets/29521172/52b2b8e7-178e-4772-9c0f-2f5e557cb5ca)
+[pot3.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/blob/main/images/pot3.jpg)
 
 Add:
 
