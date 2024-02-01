@@ -51,6 +51,8 @@ Next we are going to add a components directory and an images directory to our p
 
 [pot3.jpg](https://github.com/Northeastern-Electric-Racing/LearningSessions/blob/main/images/pot3.jpg)
 
+You can download these images by clicking on them and then pressing on the download button in the top right of the image on github. 
+
 Add:
 
 ```css
@@ -99,7 +101,7 @@ Lets go over a few things here
 3. Tailwind
    1. Tailwind is the reason we have a whole bunch of random words inside of the className attribute. Tailwind provides premade classes that help us style our websites. For now we can ignore these since I will be providing them for simplicity.
 
-Now let’s use our `<PlanterPreview …/>` in our page index.tsx. First, let’s import everything we are going to need for our PlanterPreview.
+Now let’s use our `<PlanterPreview …/>` in our page app.tsx. First, let’s import everything we are going to need for our PlanterPreview.
 
 ```tsx
 import PlanterPreview from './components/PlanterPreview';
@@ -132,7 +134,7 @@ And here is our new component (with a few missing pieces). Try and figure out ho
 type PlanterPreviewProps = {
   title: string;
   description: string;
-  imageSrc: StaticImageData;
+  imageSrc: any;
 };
 
 const PlanterPreview = ({ title, description, imageSrc }: PlanterPreviewProps): JSX.Element => {
