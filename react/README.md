@@ -2,6 +2,9 @@
 
 Creds to Alton Banushi!
 
+### Install Node
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
 ## Goal
 
 We will be creating an application that lets you view images and information of peoples’ plants … Planter!
