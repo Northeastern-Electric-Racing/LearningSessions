@@ -4,7 +4,7 @@ const RAINBOW_COLORS = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'v
 
 export const getColors = (req: Request, res: Response) => {
   // this function should return all the colors in the rainbow...
-  return res.status(400).json('Someone hasnt filled this out yet...');
+  return res.status(400).json({color: RAINBOW_COLORS});
 };
 
 export const getRandomColor = (req: Request, res: Response) => {

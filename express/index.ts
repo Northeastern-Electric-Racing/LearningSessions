@@ -1,5 +1,6 @@
 import express from 'express';
 import colorsRouter from './src/colors.routes';
+import foodRouter from './src/food.route';
 
 const port = 8080; // the port the server runs at
 const app = express(); // the app
@@ -18,6 +19,8 @@ app.get('/date', (req, res) => {
 
 // everything declared in this router will be under the '/colors' path
 app.use('/colors', colorsRouter);
+
+app.use('/food', foodRouter)
 
 // start the Express server
 app.listen(port, () => {

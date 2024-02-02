@@ -5,10 +5,15 @@ import logo from "./logo.svg";
 
 function App() {
   const [original, setOriginal] = useState(false);
+  const [counter, setCounter] = useState(0);
 
   const onSwitchClicked = () => {
     setOriginal(!original);
   };
+
+  const buttonCounter = () => {
+    setCounter(counter + 1);
+  }
 
   return (
     <div className="App">
@@ -29,6 +34,9 @@ function App() {
         </a>
         <button onClick={onSwitchClicked} className={"App-logo-button"}>
           Switch Logo
+        </button>
+        <button onClick={buttonCounter} className={"App-logo-button"}> 
+          I have clicked this button {counter} times 
         </button>
       </header>
     </div>
