@@ -1,0 +1,36 @@
+name: docker_learning
+services:
+  # Uncomment this to actually start the service
+  #your_app:
+  #  build: .   # here we are saying that the image actually needs to be built in the current directory, "."
+  #  command: /bin/bash   # here we are saying to start a shell when we start the container
+  #  tty: true      # here we are saying that we want to get a tty output from the container
+  mosquitto:
+    image: eclipse-mosquitto
+    ports:
+      - target: 1883
+        published: "1883"
+        protocol: tcp
+      - target: 9001
+        published: "9001"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: ./config
+        target: /mosquitto/config
+      - type: bind
+        source: ./data
+        target: /mosquitto/data
+      - type: bind
+        source: ./log
+        target: /mosquitto/log
+    network_mode: bridge
+  mqttx-web:
+    container_name: mqttx-web
+    image: emqx/mqttx-web
+    ports:
+      - target: 80
+        published: "8723"
+        protocol: tcp
+    network_mode: bridge
+    privileged: false
