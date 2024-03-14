@@ -30,7 +30,7 @@ Run `docker compose up --build` to begin running the whole compose.  The `--buil
 
 1. Start the docker compose
 2. Go to `localhost:8723`
-3. Click on the "+" in the right hand corner to add a new broker
+3. Click on the "+" on the left side to add a new broker
 4. Fill in the fields shown in the image above (Note, only things that matter really are the broker address and the port)
 5. Now you can publish and subscribe to any messages you'd like!
 
