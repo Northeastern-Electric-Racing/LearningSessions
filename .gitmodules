@@ -1,0 +1,3 @@
+[submodule "multi-flashcards"]
+	path = multi-flashcards
+	url = https://github.com/Oasis-NEU/multi-flashcards.git
