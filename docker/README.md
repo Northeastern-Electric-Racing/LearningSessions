@@ -37,7 +37,7 @@ Run `docker compose up --build` to begin running the whole compose.  The `--buil
 # Hints
 
 - If you run the docker compose in detached, you can attach yourself to the terminal in one of the containers using:
-`docker exec -it <CONTAINER_NAME> /bin/bash`. The `docker compose -d` output show the container names
+`docker exec -it <CONTAINER_NAME> bin/bash`. The `docker compose -d` output show the container names
 
 - If you run the docker compose in detached mode, you can shut them down by running `docker compose down`
 
