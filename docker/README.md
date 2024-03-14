@@ -13,6 +13,8 @@ You should be able to publish a message from your new container and see it in th
 
 ## What is MQTT?
 
+![MQTT](image-1.png)
+
 MQTT is a super simple protocol for sending and receiving data. We actually are using it on the car for telemetry!
 It is a publisher-subscriber model, meaning that nodes in the network can either publish to a certain topic, or
 subscribe to a certain topic to receive all data published. Don't worry about the lower level protocols, this info
