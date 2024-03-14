@@ -24,7 +24,6 @@ services:
       - type: bind
         source: ./log
         target: /mosquitto/log
-    network_mode: bridge
   mqttx-web:
     container_name: mqttx-web
     image: emqx/mqttx-web
@@ -32,5 +31,4 @@ services:
       - target: 80
         published: "8723"
         protocol: tcp
-    network_mode: bridge
     privileged: false

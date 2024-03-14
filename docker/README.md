@@ -40,4 +40,6 @@ Run `docker compose up --build` to begin running the whole compose.  The `--buil
 - If you run the docker compose in detached mode, you can shut them down by running `docker compose down`
 
 - `mosquitto-clients` is a super helpful CLI package for testing MQTT brokers. Probably include this in your dockerfile.
-You can find more info on Google. Specifically, the command `mosquitto_pub -t 'whatever/topic/you/want' -m "MY MESSAGE"` might be of use
+You can find more info on Google. Specifically, the command `mosquitto_pub -t 'whatever/topic/you/want' -m "MY MESSAGE"` might be of use. The port you want to publish to is `1883` and the hostname to publish to is `mosquitto` in our compose's setup
+
+- You probably want to subscribe to a specific message in MQTTX. You can subscribe to a topic and all of its subtopics by using a wildcard of `thistopic/#`
