@@ -1,4 +1,4 @@
-use rust_learning_session::{proxy_socket, receiver::Receiver};
+
 
 /**
  * Parses the arguments passed to the program
@@ -16,7 +16,7 @@ fn parse_args() -> Box<dyn Receiver> {
     }
     
     // Create a new proxy socket, Must clone the host argument as it is a reference and will be dropped at the end of the function
-     // Return the proxy socket as a receiver, Boxing the receiver allows us to return a trait object which is a trait that is not known at compile time
+    // Return the proxy socket as a receiver, Boxing the receiver allows us to return a trait object which is a trait that is not known at compile time
 }
 
 /**
