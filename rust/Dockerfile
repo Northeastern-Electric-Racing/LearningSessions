@@ -25,4 +25,4 @@ EXPOSE 8000
 # Command to run the Rust application
 # if not on mac try just using localhost
 # if on windows try docker.for.win.localhost?
-CMD ["sh", "-c", "sleep 2 && ./rust-learning-session docker.for.mac.localhost 8080"]
+CMD ["sh", "-c", "sleep 2 && ./rust-learning-session backend 8080"]
