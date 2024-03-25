@@ -21,6 +21,6 @@ const tcpServer = net.createServer((socket) => {
     sendMessage(socket, 'Hello from TCP server');
 });
 
-tcpServer.listen(3000, () => {
-    console.log('TCP Server is running on port 3000');
+tcpServer.listen(8080, () => {
+    console.log('TCP Server is running on port 8080');
 });

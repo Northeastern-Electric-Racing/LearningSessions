@@ -1,4 +1,4 @@
-use rust::{proxy_socket, receiver::Receiver};
+use rust_learning_session::{proxy_socket, receiver::Receiver};
 
 /**
  * Parses the arguments passed to the program
