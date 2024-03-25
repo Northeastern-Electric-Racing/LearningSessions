@@ -22,7 +22,7 @@ COPY --from=builder /usr/src/myapp/target/release/rust-learning-session .
 # Expose any ports the app needs
 EXPOSE 8000
 
-RUN chmod 777 rust-learning-session
-
 # Command to run the Rust application
-CMD ["sh", "-c", "sleep 2 && ./rust-learning-session 127.0.0.1 8080"]
+# if not on mac try just using localhost
+# if on windows try docker.for.win.localhost?
+CMD ["sh", "-c", "sleep 2 && ./rust-learning-session docker.for.mac.localhost 8080"]
