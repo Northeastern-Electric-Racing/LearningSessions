@@ -1,4 +1,4 @@
-use rust_learning_session::{proxy_socket, receiver::Receiver};
+use rust_learning_session::{proxy_socket::{self, ProxySocket}, receiver::Receiver};
 
 /**
  * Parses the arguments passed to the program
@@ -14,11 +14,19 @@ fn parse_args() -> Box<dyn Receiver> {
         eprintln!("Usage: {} <host> <port>", args[0]);
         std::process::exit(1); // Exit the program with an error code if the arguments are not in the correct format
     }
-    
-    // Create a new proxy socket, Must clone the host argument as it is a reference and will be dropped at the end of the function
-     // Return the proxy socket as a receiver, Boxing the receiver allows us to return a trait object which is a trait that is not known at compile time
-}
 
+    let host_arg = &args[1];
+    let port_arg = &args[2];
+    let port_arg = match port_arg.parse::<u16>() {
+        Ok(port) => port,
+        Err(_) => {
+            eprintln!("Port must be a number");
+            std::process::exit(1); // Exit the program with an error code if the port is not a number
+        }
+    };
+    let proxy_socket = proxy_socket::ProxySocket::new(host_arg.clone(), port_arg); // Create a new proxy socket, Must clone the host argument as it is a reference and will be dropped at the end of the function
+    Box::new(proxy_socket) // Return the proxy socket as a receiver, Boxing the receiver allows us to return a trait object which is a trait that is not known at compile time}
+}
 /**
  * Main function that is the entry point for the program
  * Will parse the arguments and start the proxy server
