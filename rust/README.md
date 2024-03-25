@@ -20,3 +20,5 @@ This is trickier than it seems having to deal with rusts ownership issues. The r
 ### Testing
 
 Run `docker-compose build` then `docker-compose up` to load and start your current code. If you see a repeated value of "Hello from TCP Server" then you have done it correctly. 
+
+If you are not on mac you may have to go into the rust app Dockerfile and change the commands host to be for your machine (see comments in the dockerfile)
