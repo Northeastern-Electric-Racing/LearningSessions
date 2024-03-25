@@ -11,4 +11,6 @@ This will involve parsing the host and port from the command line and then confi
 
 Command line arguments are retrieved via `std::env::args()`
 
-This function returns a vector of strings
+This function returns a vector of strings that represents the arguments supplied to the application starting at index 1, as 0 is the name of the application itself
+
+Your task is to parse out the host and port from the arguments, then pass that to a ProxySocket and return the ProxySocket so that the main function is able to use it. 
