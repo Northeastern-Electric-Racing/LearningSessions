@@ -2,6 +2,8 @@
 
 This is the starter template for the Next.js Basics Learning Session
 
+Note: Make sure you're on Node 18!!
+
 ### Running the App
 
 Run the following command to install the project's dependencies:
@@ -35,7 +37,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
 ### Exercise 3
 
-To use the <Link /> component, open /app/ui/dashboard/nav-links.tsx, and import the Link component from next/link. Then, replace the <a> tag with <Link>
+To use the `<Link />` component, open /app/ui/dashboard/nav-links.tsx, and import the Link component from next/link. Then, replace the `<a>` tag with `<Link>`
 
 ### Exercise 4
 
@@ -55,7 +57,7 @@ import { usePathname } from 'next/navigation';
 // ...
 ```
 
-Next, assign the path to a variable called pathname inside your <NavLinks /> component:
+Next, assign the path to a variable called pathname inside your `<NavLinks />` component:
 
 ```
 export default function NavLinks() {
